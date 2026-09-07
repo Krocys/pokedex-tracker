@@ -1,0 +1,95 @@
+/* ============================================================
+   Покедекс-трекер — цветовые переменные
+   Правило: ни один цвет не пишется в коде напрямую.
+   Только var(--...). Иначе тёмная тема сломается.
+   ============================================================ */
+
+:root {
+  /* --- Поверхности --- */
+  --bg:            #FFFBF4;  /* фон страницы, кремовый */
+  --surface:       #FFFFFF;  /* карточка, модальное окно */
+  --surface-sunken: #F6F1E7; /* панель фильтров, подложка */
+
+  /* --- Текст --- */
+  --text:          #35322E;  /* основной */
+  --text-muted:    #6E6862;  /* подписи, номера */
+  --text-faint:    #A39B92;  /* подсказки в полях */
+  --text-on-accent: #FFFBF4; /* текст на заливке акцентом */
+
+  /* --- Границы --- */
+  --border:        #E6DED1;
+  --border-strong: #CFC4B2;
+
+  /* --- Акценты --- */
+  --accent:        #F2A79F;  /* коралловый: кнопки, активные элементы */
+  --accent-hover:  #E89189;
+  --accent-soft:   #FDEDEA;  /* подложка выделения */
+  --info:          #A9C9E4;  /* голубой: ссылки, вторичные действия */
+  --info-soft:     #EBF3FA;
+
+  /* --- Состояния покемона --- */
+  --state-none-bg:      #F6F1E7;  /* не получен */
+  --state-none-border:  #E6DED1;
+  --state-prevo-bg:     #F6E3C4;  /* есть предэволюция */
+  --state-prevo-border: #DCBE8C;
+  --state-prevo-text:   #6B5222;
+  --state-caught-bg:    #D8E8D3;  /* получен */
+  --state-caught-border: #A8C9A5;
+  --state-caught-text:  #33512F;
+
+  /* --- Служебные --- */
+  --danger:        #C25B52;  /* ошибки валидации: темнее акцента, читается как текст */
+  --danger-soft:   #FBEAE8;
+  --success:       #4E7A48;
+  --warning:       #A87B32;
+
+  /* --- Прочее --- */
+  --shadow:        0 1px 3px rgba(53, 50, 46, 0.08);
+  --radius:        10px;
+  --radius-sm:     6px;
+}
+
+[data-theme="dark"] {
+  /* --- Поверхности --- */
+  --bg:            #24272E;
+  --surface:       #30343C;
+  --surface-sunken: #1E2127;
+
+  /* --- Текст --- */
+  --text:          #EDEAE3;
+  --text-muted:    #A6A9B0;
+  --text-faint:    #71757D;
+  --text-on-accent: #24272E;
+
+  /* --- Границы --- */
+  --border:        #3C414A;
+  --border-strong: #545A65;
+
+  /* --- Акценты --- */
+  --accent:        #E39199;
+  --accent-hover:  #EC9EA6;
+  --accent-soft:   #3A2F33;
+  --info:          #93B6DE;
+  --info-soft:     #2A323D;
+
+  /* --- Состояния покемона --- */
+  --state-none-bg:      #2A2E35;
+  --state-none-border:  #3C414A;
+  --state-prevo-bg:     #453A28;
+  --state-prevo-border: #6E5B3A;
+  --state-prevo-text:   #E8CE9B;
+  --state-caught-bg:    #2C3D2E;
+  --state-caught-border: #4E6B4F;
+  --state-caught-text:  #B6D4B2;
+
+  /* --- Служебные --- */
+  --danger:        #E58880;
+  --danger-soft:   #3B2B2A;
+  --success:       #8FBB88;
+  --warning:       #D6AC63;
+
+  /* --- Прочее --- */
+  --shadow:        0 1px 3px rgba(0, 0, 0, 0.35);
+}
+
+
